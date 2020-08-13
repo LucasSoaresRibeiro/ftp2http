@@ -1,0 +1,15 @@
+{
+  "name": "ftpnode",
+  "version": "1.0.0",
+  "description": "Download de arquivos FTP via HTTP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsftp": "^2.1.3"
+  }
+}
