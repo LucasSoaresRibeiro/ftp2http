@@ -1,8 +1,25 @@
-# ftpnode
+# FTP2HTTP
 NodeJS application to get a ftp file over http
 
-# Usage
+## Dev
 npm install
+node app.js
 
-# Example
-http://localhost:3000/ftpnode?host=200.999.999.999&port=21&user=user.name&password=myPassword&download=false&file=fileToDownload.txt
+## Prod (IIS)
+- npm install
+- Install IISNODE
+- Deploy application on IIS path
+- Convert path to an application
+
+# Usage
+
+## Parameters
+- host
+- port
+- user
+- password
+- download
+- file
+
+## Example
+http://localhost:3000/ftp2http?host=200.999.999.999&port=21&user=user.name&password=myPassword&download=false&file=fileToDownload.txt
