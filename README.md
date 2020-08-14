@@ -1,5 +1,5 @@
 # FTP2HTTP
-NodeJS application to get a ftp file over http
+NodeJS proxy application to get a ftp file over http
 
 ## Dev
 npm install
