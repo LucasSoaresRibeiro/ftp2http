@@ -2,8 +2,8 @@
 NodeJS proxy application to get a ftp file over http
 
 ## Dev
-npm install
-node app.js
+- npm install
+- node app.js
 
 ## Prod (IIS)
 - npm install
